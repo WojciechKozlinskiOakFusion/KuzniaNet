@@ -10,7 +10,7 @@ namespace SpaceCardGame.Domain
     {
         public int PlayerId { get; set; }
         public string Name { get; set; }
-        public List<int> Deck { get; set; } //typ w przyszłości ulegnie przemianie
+        public List<Card> Deck { get; set; } //
         public int MatchesCount { get; set; }
         public int WinCount { get; set; }
         public int LoseCount { get; set; }
