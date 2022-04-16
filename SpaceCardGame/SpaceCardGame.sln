@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceCardGameTest", "SpaceCardGameTest\SpaceCardGameTest.csproj", "{7C7F101E-BA61-4D63-A4A7-86F9D00B0CF9}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceCardGameTest", "SpaceCardGameTest\SpaceCardGameTest.csproj", "{7C7F101E-BA61-4D63-A4A7-86F9D00B0CF9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{223F6995-B419-4BE1-AB8C-31AC75266AAF}"
 EndProject
@@ -12,11 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46870F27-FF5D-47E8-8DDF-C250F3ECAC6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceCardGame.Domain", "SpaceCardGame.Domain\SpaceCardGame.Domain.csproj", "{2F926D96-0BBD-4A52-8614-DFED981DB9A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceCardGame.Domain", "SpaceCardGame.Domain\SpaceCardGame.Domain.csproj", "{2F926D96-0BBD-4A52-8614-DFED981DB9A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceCardGame.Infrastructur", "SpaceCardGame.Infrastructur\SpaceCardGame.Infrastructur.csproj", "{F9D5398F-1B13-48AE-AF7F-8959573947B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceCardGame.Infrastructur", "SpaceCardGame.Infrastructur\SpaceCardGame.Infrastructur.csproj", "{F9D5398F-1B13-48AE-AF7F-8959573947B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceCardGame.Application", "SpaceCardGame.Application\SpaceCardGame.Application.csproj", "{0DACE613-9221-4E9A-8C41-5E75B34A43FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceCardGame.Application", "SpaceCardGame.Application\SpaceCardGame.Application.csproj", "{0DACE613-9221-4E9A-8C41-5E75B34A43FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreateGamePropertiesModel", "CreateGamePropertiesModel", "{3159CC74-A373-410C-A98C-CA5B28D47BF4}"
+	ProjectSection(SolutionItems) = preProject
+		GameTime.cs = GameTime.cs
+		Level.cs = Level.cs
+		NumberOfCards.cs = NumberOfCards.cs
+		NumberOfPlayers.cs = NumberOfPlayers.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,13 +52,20 @@ Global
 		{0DACE613-9221-4E9A-8C41-5E75B34A43FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DACE613-9221-4E9A-8C41-5E75B34A43FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7C7F101E-BA61-4D63-A4A7-86F9D00B0CF9} = {223F6995-B419-4BE1-AB8C-31AC75266AAF}
-		{7149E1EB-1B0F-410A-A80D-ECC2F2AC5B0B} = {46870F27-FF5D-47E8-8DDF-C250F3ECAC6D}
 		{6991DFD3-63B2-4DBC-A7F2-10FF7D33407C} = {46870F27-FF5D-47E8-8DDF-C250F3ECAC6D}
+		{7149E1EB-1B0F-410A-A80D-ECC2F2AC5B0B} = {46870F27-FF5D-47E8-8DDF-C250F3ECAC6D}
 		{10AE8671-A38E-41FC-8300-233E8BEA56B7} = {46870F27-FF5D-47E8-8DDF-C250F3ECAC6D}
 		{2F926D96-0BBD-4A52-8614-DFED981DB9A4} = {6991DFD3-63B2-4DBC-A7F2-10FF7D33407C}
 		{F9D5398F-1B13-48AE-AF7F-8959573947B0} = {7149E1EB-1B0F-410A-A80D-ECC2F2AC5B0B}
 		{0DACE613-9221-4E9A-8C41-5E75B34A43FA} = {10AE8671-A38E-41FC-8300-233E8BEA56B7}
+		{3159CC74-A373-410C-A98C-CA5B28D47BF4} = {46870F27-FF5D-47E8-8DDF-C250F3ECAC6D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1F186DD-AF28-4461-9460-F1DE6792861E}
 	EndGlobalSection
 EndGlobal
