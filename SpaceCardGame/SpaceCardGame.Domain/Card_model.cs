@@ -1,28 +1,23 @@
 ﻿namespace SpaceCardGame.Domain
 {
-    class Card
+    public class Card
     {
 
-        private string name;
-        private int strenght;
-        private int power;
-        private int DefenseFieldValue;
-        private int DefenseArmor;
+        public string Name { get; }
+        public int Strenght { get; }
+        public int Power { get; }
+        public int DefenseFieldValue { get; }
+        public int DefenseArmor { get; }
 
-        public Card(string name, int strenght, int power, int DefenseFieldValue, int DefenseArmor)
+        public Card(string Name, int Strenght, int Power, int DefenseFieldValue, int DefenseArmor)
         {
-            this.name = name;
-            this.strenght = strenght;
-            this.power = power;
+            this.Name = Name;
+            this.Strenght = Strenght;
+            this.Power = Power;
             this.DefenseFieldValue = DefenseFieldValue;
             this.DefenseArmor = DefenseArmor;
         }
-        //Id
-        //Name
-        //Power 1
-        //Power 2
-        //Defense Field Value
-        //Defense Armor
+    
         //DPS - peer Round*?
     }
 }
