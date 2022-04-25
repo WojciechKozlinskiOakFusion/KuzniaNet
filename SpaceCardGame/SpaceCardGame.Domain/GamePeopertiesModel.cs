@@ -20,7 +20,7 @@ public class GamePropertiesModel
     {
         this.NumberOfCards = numberOfCards;
         this.NumberOfPlayers = numberOfPlayers;
-        this.GameTime = GameTime;
+        this.GameTime = gameTime;
         this.StageId = stageId;
     }
 }
