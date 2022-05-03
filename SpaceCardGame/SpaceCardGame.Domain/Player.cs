@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
+using Microsoft.EntityFrameworkCore.Tools;
 
 namespace SpaceCardGame.Domain
 {
@@ -10,7 +12,7 @@ namespace SpaceCardGame.Domain
     {
         public int PlayerId { get; }
         public string Name { get; }
-        public List<Card> Deck { get; } //
+        public List<Card> Deck { get; } 
         public int MatchesCount { get; }
         public int WinCount { get; }
         public int LoseCount { get; }
