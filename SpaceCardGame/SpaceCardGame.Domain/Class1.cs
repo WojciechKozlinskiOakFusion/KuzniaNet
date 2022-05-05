@@ -1,5 +1,8 @@
-﻿namespace SpaceCardGame.Domain;
-
-public class Class1
+﻿namespace SpaceCardGame.Domain
+    
 {
+   
 }
+
+    
+
